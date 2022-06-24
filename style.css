@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ body {
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ /*---------- Cabeçalho ----------*/
+
+header {
+    height: 60px;
+    display: flex;
+    background-color: darkcyan;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    align-self: center;
+    background-color: blueviolet;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.botoes {
+    display: flex;
+    justify-content: end;
+}
+
+nav ul li {
+    display: inline;
+}
+
+ /* header {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header a {
+    color: aqua;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+.menu {
+    display: flex;
+}
+
+.botoes {
+    display: flex;
+} */
