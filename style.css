@@ -55,6 +55,8 @@ header {
 .menu a i {
     font-size: 20px;
     color: black;
+    display: flex;
+    align-items: ;
 }
 
 .botoes {
