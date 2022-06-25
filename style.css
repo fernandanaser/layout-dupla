@@ -42,8 +42,31 @@ nav ul li {
 
 .hero-image {
 	width: 100vw;
-	height: 50px;
+	height: 60vh;
+	background: url('./images/crow.jpg');
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
 }
+
+.hero-image img {
+	width: 60px;
+}
+
+.hero-image div {
+	display: flex;
+	height: calc(30vh + 30px);
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hero-image button {
+	margin-bottom: 50px;
+}
+
+/* ------------------------------ */
 
 /* header {
     display: flex;
