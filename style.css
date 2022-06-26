@@ -220,10 +220,8 @@ nav ul li a {
 	flex-wrap: wrap;
 	margin-bottom: 30px;
 }
-
-.cards-1 img,
-.cards-2 img {
-	margin: 20px;
+.cards img {
+	margin: 20px 60px;
 }
 
 /* ---------- Prefooter ---------- */
