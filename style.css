@@ -4,6 +4,7 @@
 * {
 	margin: 0;
 	padding: 0;
+    text-decoration: none;
 }
 
 body {
@@ -45,28 +46,32 @@ header {
 	padding-left: 30px;
 }
 
-.menu a {
+.menu nav ul li a {
 	display: flex;
 	justify-content: space-between;
 	color: #18a0fb;
-	text-decoration: none;
 	align-items: center;
 	font-size: 15px;
 }
 
-.menu a p {
+.logo  {
+    display: flex;
+    justify-content: space-between;
 	font-family: 'Comfortaa', sans-serif;
 	color: black;
-	font-size: 28.4444px;
+	font-size: 20px;
 	font-weight: 400;
-	padding-left: 5px;
 }
 
-.menu a i {
+.logo a i,  .logo p{
 	font-size: 20px;
 	color: black;
-	display: flex;
-	align-items: ;
+    margin-left: 10px;
+}
+
+.logo-footer {
+    display: flex;
+    align-self: center;
 }
 
 .botoes {
@@ -96,6 +101,12 @@ nav ul li a {
 	font-family: 'Montserrat', sans-serif;
     margin-right: 12px;
     width: 130px;
+    cursor: pointer;
+}
+
+.primary:hover {
+    color: white;
+    background-color: #18a0fb;
 }
 
 .secondary {
@@ -106,7 +117,12 @@ nav ul li a {
     border-radius: 6px;
     font-family: 'Montserrat', sans-serif;
     width: 130px;
+    cursor: pointer;
 }
+
+.secondary:hover {
+    color: #18a0fb;
+    background-color: white;}
 
 /* ----------- Hero Image ----------- */
 
@@ -124,6 +140,7 @@ nav ul li a {
 .hero-image img {
 	width: 80px;
     padding-top: 200PX;
+    cursor: pointer;
 }
 
 .hero-image div {
@@ -147,26 +164,17 @@ nav ul li a {
 
 /* ----------- Features -----------*/
 
-.features {
-	width: 80vw;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    padding: 80px;
+.container h2 {
+    margin-top: 70px;
+    padding-left: 40px;
 }
 
-.features h2 {
-    margin-bottom: 30px;
-}
-
-.features-column {
-    display: flex;
-    flex-flow: column wrap;
+.features-tittle {
+    width: 400px;
 }
 
 .features-block {
-    width: 600px;
-
+    width: 500px;
 }
 
 .features-block h3 {
@@ -175,7 +183,11 @@ nav ul li a {
 
 .features-block button {
     width: auto;
-margin-top: 20px;
+    margin-top: 20px;
+}
+
+.features-block p {
+    text-align: justify;
 }
 
 /* ------------- Articles ---------- */
@@ -224,6 +236,12 @@ margin-top: 20px;
 .cards {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.cards-1 img, .cards-2 img{
+    margin: 20px;
 }
 
 
@@ -238,6 +256,32 @@ margin-top: 20px;
 	width: 60%;
 	display: flex;
 	justify-content: space-around;
+}
+
+.preefoter-buttons button {
+    width: 192px;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 0 20px 0;
+}
+
+.navegacao nav ul li a {
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.nav-esquerda ul li a {
+    margin-right: 40px;
+}
+
+.nav-direita ul li a {
+    margin-left: 40px;
 }
 
 /* -------- Footer --------- */
