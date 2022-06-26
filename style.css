@@ -36,19 +36,16 @@ header {
 .menu {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 	padding: 21px 0;
 }
 
 .menu nav ul {
 	display: flex;
 	justify-content: space-between;
-	padding-left: 30px;
+    padding-left: 30px;
 }
 
 .menu nav ul li a {
-	display: flex;
-	justify-content: space-between;
 	color: #18a0fb;
 	align-items: center;
 	font-size: 15px;
@@ -63,9 +60,7 @@ header {
 	font-weight: 400;
 }
 
-.logo a i,  .logo p{
-	font-size: 20px;
-	color: black;
+.logo p{
     margin-left: 10px;
 }
 
@@ -74,22 +69,12 @@ header {
     align-self: center;
 }
 
-.botoes {
-	display: flex;
-	justify-content: end;
-}
-
 nav ul li {
 	display: inline;
 }
 
 nav ul li a {
 	padding: 0 10px;
-}
-
-.botoes {
-	display: flex;
-	justify-content: space-between;
 }
 
 .primary {
@@ -276,8 +261,22 @@ nav ul li a {
     padding: 0;
 }
 
+.nav-esquerda, .nav-direita {
+    width: 25vw;
+}
+
 .nav-esquerda ul li a {
     margin-right: 40px;
+}
+
+.nav-esquerda ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-direita ul {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .nav-direita ul li a {
