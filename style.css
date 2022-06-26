@@ -85,7 +85,6 @@ nav ul li a {
 	border-radius: 6px;
 	font-family: 'Montserrat', sans-serif;
 	margin-right: 12px;
-	width: 130px;
 	cursor: pointer;
 }
 
@@ -101,7 +100,6 @@ nav ul li a {
 	padding: 11px 42px;
 	border-radius: 6px;
 	font-family: 'Montserrat', sans-serif;
-	width: 130px;
 	cursor: pointer;
 }
 
@@ -157,7 +155,7 @@ nav ul li a {
 }
 
 .features-block {
-	width: 500px;
+	height: 50%;
 }
 
 .features-block h3 {
