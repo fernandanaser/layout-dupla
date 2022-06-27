@@ -51,6 +51,10 @@ header {
 	font-size: 15px;
 }
 
+.menu nav ul li a:hover {
+	text-decoration: underline;
+}
+
 .logo {
 	display: flex;
 	justify-content: space-between;
