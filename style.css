@@ -289,9 +289,10 @@ nav ul li a {
 	margin: 20px 0 10px 0;
 }
 
-.social i {
+.social a i {
 	padding: 15px;
 	font-size: 30px;
+    color: black;
 }
 
 /* Copyright */
