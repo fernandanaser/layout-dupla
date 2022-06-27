@@ -280,7 +280,7 @@ nav ul li a {
 /* Social */
 .social {
 	text-align: center;
-	margin: 20px;
+	margin: 20px 0 10px 0;
 }
 
 .social i {
@@ -292,4 +292,5 @@ nav ul li a {
 .copyright {
 	text-align: center;
 	margin: 10px 0;
+	font-size: 13px;
 }
