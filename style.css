@@ -216,10 +216,12 @@ nav ul li a {
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
+    align-self: center;
 	margin-bottom: 30px;
+    width: 70vw;
 }
 .cards img {
-	margin: 20px 60px;
+	margin: 20px 15px;
 }
 
 /* ---------- Prefooter ---------- */
